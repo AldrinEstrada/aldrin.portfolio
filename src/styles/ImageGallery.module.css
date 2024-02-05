@@ -1,0 +1,30 @@
+.container1 {
+	position:absolute;
+	display: flex;
+	flex-direction: row;
+	gap: 5%;
+	margin-bottom: 70%;
+}
+
+.innerContainer3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.innerContainer4 {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.container2 {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	gap: 5%;
+}
+
+.imageContainer {
+	display:flex;
+	flex-direction: column;
+}

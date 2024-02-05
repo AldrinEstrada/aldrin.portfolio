@@ -1,0 +1,212 @@
+.header {
+    width: 99vw;
+    height: 450px; /* Adjust the height as needed */
+    background-color: #9DDBC1; 
+    color: #fff; 
+    display: flex;
+
+}
+
+.headerContent {
+    position: absolute;
+    right: 25%;
+    top: 27%;
+}
+.laptop {
+    display: flex;
+    position: absolute;
+    left: 20%;
+    top: 19%;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.overview {
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    gap: 3%;
+    padding-top: 3%;
+
+}
+
+
+.roleInfo {
+
+    display: flex;
+    flex-direction: column;
+
+    color:#fff;
+    width: 28%;
+
+
+}
+
+.role {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+
+}
+
+
+.skills {    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    align-items: center;
+
+}
+
+.tags {
+    gap: 3%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.label {
+    padding: 8px;
+    background-color: #165e6e;
+    border-radius: 8px;
+    height:fit-content;
+    min-width: fit-content;
+    font-size: small;
+
+}
+
+
+
+.projectIntro {
+    max-width: 28%;
+    color:#fff;
+}
+
+.overviewVid {
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.projectDescription {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    max-width: 59%;
+    color:#fff;
+
+}
+
+.challenge {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    max-width: 59%;
+    color:#fff;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 59%;
+    color:#fff;
+    gap: 30px;
+}
+
+.lofiImages {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.lofiImages1 {
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+
+}
+
+.lofiImages2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hifi {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hifiImages {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hifiImages1 {
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+
+}
+
+.hifiImages2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.colorCardsList {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.styleGuide {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+
+.logoImages {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.end {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.endFinalImages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.endImages1 {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.endImages2 {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
