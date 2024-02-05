@@ -1,6 +1,7 @@
 import styles from '@/styles/Projects2.module.css'
 import Image from 'next/image';
 import React from 'react';
+import Link from 'next/link'
 
 const Projects2 = ({ imagePath, title, description, button }) => (
   <div>
