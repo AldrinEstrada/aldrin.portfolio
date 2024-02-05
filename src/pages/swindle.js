@@ -16,33 +16,41 @@ export default function Swindle() {
                 </div>
             </div>
 
-            <div className={styles.roleInfo}>
-                <div className={styles.role}>
-                    <h4>Role for this project:</h4>
-                    <div className={styles.roleName}>
-                        <p>UX/UI Designer</p>
+            <div className={styles.overview}>
+                <div className={styles.roleInfo}>
+                    <div className={styles.role}>
+                        <h4>Role for this project:</h4>
+                        <div className={styles.roleName}>
+                            <p>UX/UI Designer, Front-end Developer</p>
+                        </div>
+
                     </div>
 
-                </div>
+                    <div className={styles.skills}>
+                        <h4>Skills utilized for this project:</h4>
+                        <div className={styles.skillTags}>
+                            <div className={styles.tags1}>
+                                <span className={styles.label}>Figma</span>
+                                <span className={styles.label}>Research</span>
+                                <span className={styles.label}>Usability Testing</span>
+                                
+                            </div>
+                            <div className={styles.tags2}>
+                                <span className={styles.label}>Front-end Developoer</span>
+                            </div>
+                        </div>
 
-                <div className={styles.skills}>
-                    <h4>Skills utilized for this project:</h4>
-                    <div className={styles.tags}>
-                        <span className={styles.label}>Figma</span>
-                        <span className={styles.label}>Research</span>
-                        <span className={styles.label}>Usability Testing</span>
-                        <span className={styles.label}>Front-end Developoer</span>
                     </div>
-
                 </div>
-            </div>
 
-            
-            <div className={styles.projectIntro}>
-                <p>
-                    A scam detector app that asks specific questions to determine if
-                    you're being scammed or not.
-                </p>
+                
+                <div className={styles.projectIntro}>
+                    <p>
+                        A scam detector app that asks specific questions to determine if
+                        you're being scammed or not. The app also uses the power of OpenAI API in a form of a chatbot
+                        that answers questions about cybersecurity for everyday users and gives suggestions based on the severity of the questions.
+                    </p>
+                </div>
             </div>
         </main>
     )
