@@ -12,7 +12,9 @@ const Projects2 = ({ imagePath, title, description, button }) => (
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-      <button className={styles.projectButton}>View Project</button>
+      <Link href="/swindle">
+        <button className={styles.projectButton}>View Project</button>
+      </Link>
     </div>
   </div>
 );
