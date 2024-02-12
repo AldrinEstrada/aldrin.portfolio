@@ -96,6 +96,9 @@ export default function Swindle() {
                 <p>With all the colors and components applied, the ideation is now complete. It was time to move on to the coding process and bring the app to life.</p>
 
             </div>
+            <div>
+                <h3></h3>
+            </div>
 
 
             <div className={styles.appOverview}>
