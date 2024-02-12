@@ -21,7 +21,7 @@
 .card:hover
 {
   z-index: 10000;
-  transform: perspective(2000px) rotate(-10deg);
+  transform: perspective(2000px);
   box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
 }
 
@@ -61,9 +61,18 @@
   z-index: -1;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .projectButton {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
+  padding: 10px;
 }

@@ -6,32 +6,38 @@ import ColorCards from '/components/ColorCards'
 
 export default function Cocoon() {
     return(
-        <main>
+        <main className={styles.mainBody}>
             <div className={styles.header}>
                 <div className={styles.headerContent}>
                     <Image
-                        className={styles.logo}
-                        src={'/images/cocoon-logo.png'}
-                        height={80}
-                        width={350}
+                        className={styles.desktop}
+                        src={'/images/laptop-mockup.png'}
+                        height={500}
+                        width={500}
                     />
 
-                    <div>
-                        <h1>You're worth more than you think.</h1>
-                    </div>
+                    <div className={styles.tagline}>
+                        <Image
+                            className={styles.logo}
+                            src={'/images/cocoon-logo.png'}
+                            height={80}
+                            width={350}
+                        />
 
+                        <div>
+                            <h1>You're worth more than you think.</h1>
+                        </div>
+                        <button className={styles.tryButton}>
+                            <a href="https://www.cocoon.quest/" target="_blank">Try Out Cocoon</a>
+                        </button>
+                        
+                    </div>
+                    
+                
 
                 </div>
 
             </div>
-
-
-            <Image
-                className={styles.laptop}
-                src={'/images/laptop-mockup.png'}
-                height={500}
-                width={500}
-            />
 
             <div className={styles.mainContent}>
                 <div className={styles.overview}>
@@ -39,18 +45,14 @@ export default function Cocoon() {
                         <div className={styles.role}>
                             <h4>Role for this project:</h4>
                             <div>
-                                <p>UX/UI Designer</p>
+                                <p>UX/UI Designer / Online Marketing Manager</p>
                             </div>
 
                         </div>
 
                         <div className={styles.skills}>
                             <h4>Skills utilized:</h4>
-                            <div className={styles.tags}>
-                                <span className={styles.label}>Figma</span>
-                                <span className={styles.label}>Research</span>
-                                <span className={styles.label}>Usability Testing</span>
-                            </div>
+                            <p>Figma / User Reasearch / Usability Testing</p>
 
                         </div>
                     </div>
@@ -95,7 +97,7 @@ export default function Cocoon() {
                 <div className={styles.design}>
                     <div className={styles.lofiText}>
                         <h2>Design Journey</h2>
-                        <h3>The Early Stages</h3>
+                        <h3>The Early Stages: Lo-Fi</h3>
                         <p>
                             The design process started with having a rough design for the ideas on the app's layout. The idea behind the initial designs were to make things have a modern and simple feel 
                             while keeping the flow consistent and easy for users to use. 
@@ -137,7 +139,7 @@ export default function Cocoon() {
 
                     <div className={styles.hifi}>
                         <div className={styles.hifiText}>
-                            <h3>Mastering The Craft</h3>
+                            <h3>Mastering The Craft: Mid-Fi</h3>
                             <p>Following weeks of continuous revisions and meetings with the team, the app is finally starting to come to life and take shape. In this stage of the development cycle,
                                 the login function was implemented to perfect with the progress tracker. 
                             </p>
@@ -233,6 +235,7 @@ export default function Cocoon() {
                     <div className={styles.end}>
                         <div className={styles.endText1}>
                             <h2>The Birth of A New App</h2>
+                            <h3>Hi-Fi/Final Product</h3>
                             <p>For the final design, the team felt that there was still something missing that really emphasizes the intent and theme of the app. This lead to one final revision that upon creation, gave that 'it' factor that the
                                 team was looking for. The change to a dashboard UI was a step-away from the traditional web-app that gives off a traditional website feel. This allows for a more engaging design that hones in
                                 on being a platform that focuses on user's personal improvement, development, and transformation. At this stage, the app is now ready for code.
@@ -280,18 +283,9 @@ export default function Cocoon() {
                                 dedication, and cooperation were tested. 
                             </p>
                             
-                            <button>
-                                <a href="https://www.cocoon.quest/" target="_blank">Try Out Cocoon</a>
-                            </button>
                         </div>
-
-
                     </div>
-
-                    
-
                 </div>
-                
                 
             </div>
 

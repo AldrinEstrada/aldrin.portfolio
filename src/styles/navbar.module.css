@@ -7,3 +7,9 @@
     gap: 30px;
     color: #ffff;
 }
+
+.nav a {
+    font-family: 'Manrope';
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove the underline */
+  }

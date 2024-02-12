@@ -1,23 +1,89 @@
+.mainBody {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
 .header {
     width: 99vw;
-    height: 450px; /* Adjust the height as needed */
+    height: 30rem; 
     background-color: #9DDBC1; 
     color: #fff; 
-    display: flex;
+    z-index: -20;
 
 }
 
 .headerContent {
-    position: absolute;
-    right: 25%;
-    top: 27%;
-}
-.laptop {
     display: flex;
-    position: absolute;
-    left: 20%;
-    top: 19%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
+
+.desktop {
+    margin-top: 2rem;
+}
+
+
+.tagline {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tryButton {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  will-change: transform;
+}
+
+.tryButton a {
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+.tryButton:disabled {
+  pointer-events: none;
+}
+
+.tryButton:hover {
+  color: #fff;
+  background-color: #9d56a8;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.tryButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+
 
 .mainContent {
     display: flex;
@@ -59,23 +125,6 @@
     flex-direction: row;
     gap: 3%;
     align-items: center;
-
-}
-
-.tags {
-    gap: 3%;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.label {
-    padding: 8px;
-    background-color: #165e6e;
-    border-radius: 8px;
-    height:fit-content;
-    min-width: fit-content;
-    font-size: small;
 
 }
 

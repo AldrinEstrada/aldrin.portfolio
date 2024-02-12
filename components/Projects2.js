@@ -12,10 +12,12 @@ const Projects2 = ({ imagePath, title, description, button }) => (
       <div className={styles.details}>
         <h2>{title}</h2>
         <p>{description}</p>
+        <div className={styles.buttonContainer}>
+          <Link href="/swindle">
+            <button className={styles.projectButton}>View Project</button>
+          </Link>
+        </div>
       </div>
-      <Link href="/swindle">
-        <button className={styles.projectButton}>View Project</button>
-      </Link>
     </div>
   </div>
 );

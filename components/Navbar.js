@@ -17,6 +17,10 @@ const Navbar = () => {
         Contact
       </Link>
 
+      <Link href="./" rel="noreferrer">
+        Home
+      </Link>
+
 
     </nav>
 

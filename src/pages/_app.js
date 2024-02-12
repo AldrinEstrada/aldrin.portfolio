@@ -7,7 +7,7 @@ import '@/styles/fonts.css';
 export default function App({ Component, pageProps }) {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Component {...pageProps} />
     </div>
   );
